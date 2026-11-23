@@ -1,17 +1,17 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "catbox",
-    "password": "qwerty123",
+    "username": "PerzaanLive",
+    "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "catbox.play.hosting",
-    "port": 25695,
-    "version": "1.21.11"
+    "ip": "example.aternos.me",
+    "port": 75375,
+    "version": "1.21.1"
   },
   "position": {
-    "enabled": false,
+    "enabled": true,
     "x": 0,
     "y": 100,
     "z": 0
@@ -19,26 +19,26 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "qwerty123"
+      "password": "Perzuu"
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
-      "repeat": false,
-      "repeat-delay": 30000,
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 500,
       "messages": [
         "I'm a regular player",
-        "Subscribe to katavar67!",
+        "Subscribe to Perzaan Gaming!",
         "I like to play Minecraft!"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 10000,
-    "max-reconnect-delay": 60000,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 20000,
     "periodic-rejoin": {
       "enabled": false,
       "min-interval": 20,
@@ -48,7 +48,7 @@
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": false,
+      "enabled": true,
       "radius": 4,
       "speed": 3000
     },
@@ -62,19 +62,19 @@
     }
   },
   "modules": {
-    "avoidMobs": false,
-    "combat": false,
-    "beds": false,
+    "avoidMobs": true,
+    "combat": true,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": false,
+    "attack-mobs": true,
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": true,
@@ -86,6 +86,6 @@
     }
   },
   "chat": {
-    "respond": false
+    "respond": true
   }
 }
